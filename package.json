@@ -15,13 +15,15 @@
     "preset": "jest-expo"
   },
   "dependencies": {
+    "@datadog/mobile-react-native": "^2.4.4",
     "@expo/vector-icons": "^14.0.2",
     "@react-navigation/bottom-tabs": "^7.0.0",
     "@react-navigation/native": "^7.0.0",
     "dom-to-image": "^2.6.0",
-    "expo": "~52.0.18",
+    "expo": "~51.0.0",
     "expo-blur": "~14.0.1",
     "expo-constants": "~17.0.3",
+    "expo-datadog": "^51.0.2",
     "expo-dev-client": "~5.0.6",
     "expo-font": "~13.0.1",
     "expo-haptics": "~14.0.0",
@@ -48,6 +50,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
+    "@datadog/datadog-ci": "^2.45.1",
     "@types/jest": "^29.5.12",
     "@types/react": "~18.3.12",
     "@types/react-test-renderer": "^18.3.0",
